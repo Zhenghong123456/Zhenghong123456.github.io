@@ -1,0 +1,49 @@
+
+---
+title: "Personal Website"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Hi, I'm Zhenghong!
+
+Welcome to my personal website!
+
+## About Me
+
+I'm currently a master's student in Biostatistics at Columbia University, focusing on Public Health Data Science.
+
+Before coming to Columbia, I studied Mathematics and Applied Mathematics at the University of Nottingham.
+
+I'm interested in statistics, data science, and machine learning. I enjoy working with data and learning how to use different tools to solve problems.
+
+## My Interests
+
+Some of the areas I'm interested in are:
+
+- Data Science
+- Machine Learning
+- Statistics
+- Data Visualization
+
+## What I've Worked On
+
+During my undergraduate studies, I worked on several projects involving mathematical modelling and data analysis.
+
+Some of my projects include studying gene regulatory networks, analyzing ESG ratings and corporate bonds, and modelling the motion of amusement rides.
+
+I've also had some experience working with financial data during an internship.
+
+## About This Website
+
+I created this website as part of my Data Science course at Columbia.
+
+Here, I'll share a little about my academic background, experience, and some of the projects I've worked on.
+
+## Contact
+
+- **Email:** [zc2959@cumc.columbia.edu](mailto:zc2959@cumc.columbia.edu)
+- **GitHub:** [Zhenghong123456](https://github.com/Zhenghong123456)
