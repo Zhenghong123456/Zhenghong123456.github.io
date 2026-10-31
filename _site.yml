@@ -1,0 +1,17 @@
+name: "Zhenghong Chen"
+output_dir: "."
+navbar:
+  title: "Zhenghong Chen"
+  left:
+    - text: "Personal Website"
+      href: index.html
+    - text: "About"
+      href: about.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:zc2959@cumc.columbia.edu
+    - icon: fa-github fa-lg
+      href: https://github.com/Zhenghong123456
+output:
+  html_document:
+    theme: cerulean
