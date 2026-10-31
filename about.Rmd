@@ -1,0 +1,78 @@
+
+---
+title: "About Me"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# About Me
+
+Hi! I'm Zhenghong Chen. I'm currently studying Biostatistics at Columbia University. Before this, I studied Mathematics and Applied Mathematics at the University of Nottingham.
+
+Here's a little more about my education, projects, and experience.
+
+## Education
+
+### Columbia University
+
+**M.S. in Biostatistics (Public Health Data Science)**
+
+September 2026 - Present
+
+Some of the courses I'm taking include Probability, Data Science I, Biostatistical Methods I, and Principles of Epidemiology I.
+
+### University of Nottingham
+
+**B.S. in Mathematics and Applied Mathematics**
+
+September 2022 - June 2026
+
+During my undergraduate studies, I took courses in statistics, mathematical modelling, differential equations, and mathematical analysis.
+
+## Academic Projects
+
+### Gene Regulatory Networks
+
+March 2026
+
+I worked on a group project studying gene regulatory networks using mathematical models. We used Python to run simulations and explore how different parameters affect the behavior of these systems.
+
+### ESG Ratings and Corporate Bonds
+
+March - June 2025
+
+In this project, my group studied how ESG ratings relate to the risk and return of Chinese corporate bonds. We used R to clean data, build regression models, and visualize the results.
+
+### Mathematical Modelling of Roundabout Rides
+
+October - November 2025
+
+My group developed mathematical models to study the motion of amusement rides. We looked at rotational motion, forces, and how different conditions could affect ride safety.
+
+### Generalized Stokes' Theorem
+
+March - June 2024
+
+For this independent project, I explored the generalized Stokes' theorem and some related mathematical concepts.
+
+## Work Experience
+
+### Shanghai Kingsun Investment Fund Management Co., Ltd.
+
+**Intern Analyst | July - August 2025**
+
+During my internship, I worked with financial and industry data using Python and Excel. I helped analyze historical data, create visualizations, and explore different scenarios.
+
+## Technical Skills
+
+- **Programming:** Python, R, SQL
+- **Data Analysis:** Data Cleaning, Regression Analysis, Data Visualization
+- **Other Tools:** Excel, SPSS, NumPy, SciPy
+
+## Contact
+
+- **Email:** [zc2959@cumc.columbia.edu](mailto:zc2959@cumc.columbia.edu)
+- **GitHub:** [Zhenghong123456](https://github.com/Zhenghong123456)
