@@ -65,4 +65,21 @@ ny_noaa_temperature |>
 ```
 
 
+### Average Daily Precipitation by Month in 2010
+
+This bar chart shows the average daily precipitation recorded across weather station observations for each month in 2010. Precipitation is measured in millimeters.
+
+```{r barchart}
+ny_noaa_precipitation |>
+  plot_ly( x = ~month, y = ~mean_prcp_mm, type = "bar")
+```
+
+
+
+
+
+
+
+
+
 
