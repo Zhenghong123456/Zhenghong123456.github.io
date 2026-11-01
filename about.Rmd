@@ -80,3 +80,8 @@ During my internship, I worked with financial and industry data using Python and
 ## Back to Home
 
 [Back to Personal Website](index.html)
+
+
+
+
+

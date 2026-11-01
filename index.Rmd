@@ -47,3 +47,11 @@ Here, I'll share a little about my academic background, experience, and some of 
 
 - **Email:** [zc2959@cumc.columbia.edu](mailto:zc2959@cumc.columbia.edu)
 - **GitHub:** [Zhenghong123456](https://github.com/Zhenghong123456)
+
+## About Me
+
+[Go to About Page](about.html)
+
+
+
+
