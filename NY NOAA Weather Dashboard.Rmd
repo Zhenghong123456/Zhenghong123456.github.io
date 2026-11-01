@@ -42,7 +42,7 @@ Column {data-width=650}
 
 ### Minimum vs. Maximum Temperature in January 2010
 
-This scatterplot compares daily minimum and maximum temperatures in January 2010. Each point represents one weather station observation. Temperatures are in degrees Celsius.
+This scatterplot shows the relationship between daily minimum and maximum temperatures in January 2010. Each point represents a weather station observation. Temperatures are measured in degrees Celsius.
 
 ```{r scatterplot}
 weather_scatter = ny_noaa_temperature |>
@@ -57,7 +57,7 @@ ggplotly(weather_scatter)
 
 ### Maximum Temperature by Month in 2010
 
-These boxplots compare the distribution of daily maximum temperatures across the 12 months of 2010. Temperatures are in degrees Celsius.
+These boxplots compare the distribution of daily maximum temperatures across the 12 months of 2010. Temperatures are measured in degrees Celsius.
 
 ```{r boxplot}
 ny_noaa_temperature |>
@@ -67,7 +67,7 @@ ny_noaa_temperature |>
 
 ### Average Daily Precipitation by Month in 2010
 
-This bar chart shows the average daily precipitation recorded across weather station observations for each month in 2010. Precipitation is measured in millimeters.
+This bar chart shows the average daily precipitation across available weather station observations for each month in 2010. Precipitation is measured in millimeters.
 
 ```{r barchart}
 ny_noaa_precipitation |>
