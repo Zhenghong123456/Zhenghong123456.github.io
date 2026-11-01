@@ -283,6 +283,11 @@ $(document).ready(function () {
   drop_na(tmax, tmin) |&gt;
   filter(tmax &gt;= tmin) |&gt;
   mutate( tmax_c = tmax / 10, tmin_c = tmin / 10, month = factor(lubridate::floor_date(date, unit = &quot;month&quot;)))</code></pre>
+<pre class="r"><code>ny_noaa_precipitation = ny_noaa_2010 |&gt;
+  drop_na(prcp) |&gt;
+  mutate( month = lubridate::floor_date(date, unit = &quot;month&quot;), prcp_mm = prcp / 10) |&gt;
+  group_by(month) |&gt;
+  summarize(mean_prcp_mm = mean(prcp_mm))</code></pre>
 
 
 

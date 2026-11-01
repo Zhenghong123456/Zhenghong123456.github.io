@@ -28,6 +28,13 @@ ny_noaa_temperature = ny_noaa_2010 |>
   mutate( tmax_c = tmax / 10, tmin_c = tmin / 10, month = factor(lubridate::floor_date(date, unit = "month")))
 ```
 
+```{r}
+ny_noaa_precipitation = ny_noaa_2010 |>
+  drop_na(prcp) |>
+  mutate( month = lubridate::floor_date(date, unit = "month"), prcp_mm = prcp / 10) |>
+  group_by(month) |>
+  summarize(mean_prcp_mm = mean(prcp_mm))
+```
 
 
 
