@@ -37,6 +37,23 @@ ny_noaa_precipitation = ny_noaa_2010 |>
 ```
 
 
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Minimum vs. Maximum Temperature in January 2010
+
+This scatterplot compares daily minimum and maximum temperatures in January 2010. Each point represents one weather station observation. Temperatures are in degrees Celsius.
+
+```{r scatterplot}
+weather_scatter = ny_noaa_temperature |>
+  filter(date < "2010-02-01") |>
+  ggplot(aes(x = tmin_c, y = tmax_c)) +
+  geom_point(alpha = 0.5) +
+  labs( x = "Minimum temperature (C)", y = "Maximum temperature (C)")
+
+ggplotly(weather_scatter)
+```
+
 
 
 
