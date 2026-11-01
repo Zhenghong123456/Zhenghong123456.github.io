@@ -81,7 +81,9 @@ During my internship, I worked with financial and industry data using Python and
 
 [Back to Personal Website](index.html)
 
+## Weather Dashboard
 
+[View Weather Dashboard](ny_noaa_dashboard.html)
 
 
 
