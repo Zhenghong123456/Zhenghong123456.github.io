@@ -1,0 +1,37 @@
+---
+title: "NY NOAA Weather Dashboard"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+
+data("ny_noaa")
+```
+
+```{r prepare_data, include=FALSE}
+ny_noaa_2010 = ny_noaa |>
+  filter( date >= "2010-01-01", date < "2011-01-01")
+```
+
+```{r}
+ny_noaa_temperature = ny_noaa_2010 |>
+  mutate( tmax = as.numeric(tmax), tmin = as.numeric(tmin)) |>
+  drop_na(tmax, tmin) |>
+  filter(tmax >= tmin) |>
+  mutate( tmax_c = tmax / 10, tmin_c = tmin / 10, month = factor(lubridate::floor_date(date, unit = "month")))
+```
+
+
+
+
+
+
+
+
