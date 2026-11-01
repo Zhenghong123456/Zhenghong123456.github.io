@@ -55,6 +55,9 @@ ggplotly(weather_scatter)
 ```
 
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
 ### Maximum Temperature by Month in 2010
 
 These boxplots compare the distribution of daily maximum temperatures across the 12 months of 2010. Temperatures are measured in degrees Celsius.
