@@ -55,7 +55,14 @@ ggplotly(weather_scatter)
 ```
 
 
+### Maximum Temperature by Month in 2010
 
+These boxplots compare the distribution of daily maximum temperatures across the 12 months of 2010. Temperatures are in degrees Celsius.
+
+```{r boxplot}
+ny_noaa_temperature |>
+  plot_ly( y = ~tmax_c, color = ~month, type = "box", colors = "viridis")
+```
 
 
 
