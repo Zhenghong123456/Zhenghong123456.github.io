@@ -44,6 +44,9 @@ Column {data-width=650}
 
 This scatterplot shows the relationship between daily minimum and maximum temperatures in January 2010. Each point represents a weather station observation. Temperatures are measured in degrees Celsius.
 
+
+[Back to Personal Website](index.html)
+
 ```{r scatterplot}
 weather_scatter = ny_noaa_temperature |>
   filter(date < "2010-02-01") |>
