@@ -80,11 +80,7 @@ ny_noaa_precipitation |>
 ```
 
 
-[Back to Personal Website](index.html)
-
-
-
-
+> [Back to Personal Website](index.html)
 
 
 
