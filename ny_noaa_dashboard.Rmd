@@ -50,8 +50,7 @@ weather_scatter = ny_noaa_temperature |>
   ggplot(aes(x = tmin_c, y = tmax_c)) +
   geom_point(alpha = 0.5) +
   labs( x = "Minimum temperature (C)", y = "Maximum temperature (C)")
-
-ggplotly(weather_scatter)
+ggplotly(weather_scatter, height = 700)
 ```
 
 
@@ -64,7 +63,7 @@ These boxplots compare the distribution of daily maximum temperatures across the
 
 ```{r boxplot}
 ny_noaa_temperature |>
-  plot_ly( y = ~tmax_c, color = ~month, type = "box", colors = "viridis")
+  plot_ly( y = ~tmax_c, color = ~month, type = "box", colors = "viridis", height = 300)
 ```
 
 
@@ -74,7 +73,7 @@ This bar chart shows the average daily precipitation across available weather st
 
 ```{r barchart}
 ny_noaa_precipitation |>
-  plot_ly( x = ~month, y = ~mean_prcp_mm, type = "bar")
+  plot_ly( x = ~month, y = ~mean_prcp_mm, type = "bar", height = 300)
 ```
 
 
