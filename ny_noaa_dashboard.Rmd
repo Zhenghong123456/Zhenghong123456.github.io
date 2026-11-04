@@ -63,7 +63,8 @@ These boxplots compare the distribution of daily maximum temperatures across the
 
 ```{r boxplot}
 ny_noaa_temperature |>
-  plot_ly( y = ~tmax_c, color = ~month, type = "box", colors = "viridis", height = 300)
+  plot_ly( y = ~tmax_c, color = ~month, type = "box", colors = "viridis", height = 300) |>
+  layout( xaxis = list(title = "Month"), yaxis = list(title = "Maximum temperature (C)"))
 ```
 
 
@@ -73,7 +74,8 @@ This bar chart shows the average daily precipitation across available weather st
 
 ```{r barchart}
 ny_noaa_precipitation |>
-  plot_ly( x = ~month, y = ~mean_prcp_mm, type = "bar", height = 300)
+  plot_ly( x = ~month, y = ~mean_prcp_mm, type = "bar", height = 300) |>
+  layout( xaxis = list(title = "Month"), yaxis = list(title = "Average Daily Precipitation (mm)"))
 ```
 
 
